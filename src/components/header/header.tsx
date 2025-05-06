@@ -54,15 +54,15 @@ export const Header = () => {
             <Catalog />
             Каталог
           </Button>
-          <div className="flex gap-x-0">
+          <form className="flex gap-x-0">
             <Input
               placeholder="Найти товары"
               className="w-[700px] rounded-r-none"
             />
-            <Button className="bg-[#D1DAE6] rounded-l-none">
+            <Button type="submit" className="bg-[#D1DAE6] rounded-l-none">
               <Search />
             </Button>
-          </div>
+          </form>
           <button>
             <Card />
           </button>
