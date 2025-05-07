@@ -18,7 +18,7 @@ export const CardCommon = ({
         <img
           src={image}
           alt={title}
-          className="w-[235px] h-[300px] object-contain  mb-4"
+          className="w-[270px] h-[300px] object-contain  mb-4"
         />
         <div className="absolute top-4 right-4 text-xl cursor-pointer">
           {likeToggle ? "❤️" : "🤍"}

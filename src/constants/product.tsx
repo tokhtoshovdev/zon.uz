@@ -37,7 +37,7 @@ export const PRODUCT: Props[] = [
   {
     id: 4,
     title: "Sement qorish aralashtirgich",
-    image: "https://images.uzum.uz/cl4scclennt861iopaug/original.jpg",
+    image: "https://www.zzzhenheng.com/uploads/index_product_1.png",
     likeToggle: false,
     price: "3,500,000 UZS",
     discount: "10%",
@@ -53,8 +53,7 @@ export const PRODUCT: Props[] = [
   {
     id: 6,
     title: "Metall kesish disk (125mm)",
-    image:
-      "https://files.glotr.uz/company/000/026/363/products/2025/01/11/2025-01-11-18-21-20-882780-1979c05ffe244c84450030de6a46507d.webp?_=ozauc",
+    image: "https://epacompany.uz/storage/images/large/1/231/1074.webp",
     likeToggle: false,
     price: "25,000 UZS",
     discount: "",
@@ -71,8 +70,7 @@ export const PRODUCT: Props[] = [
   {
     id: 8,
     title: "Qurilish suvi (gruntovka)",
-    image:
-      "https://files.glotr.uz/company/000/018/768/products/2021/05/24/2021-05-24-15-53-44-541464-ba302be477aa720de88148a8b82fd304.jpg?_=ozauc",
+    image: "https://www.albus.uz/media/gruntovka.png",
     likeToggle: false,
     price: "60,000 UZS",
     discount: "10%",
@@ -80,7 +78,8 @@ export const PRODUCT: Props[] = [
   {
     id: 11,
     title: "Qurilish ko'zoynagi",
-    image: "https://images.uzum.uz/cq7vj57frr885gh1n4i0/original.jpg",
+    image:
+      "https://srcyrl.workprotool.com/uploads/202236532/safety-goggles-anti-fog00469516347.jpg",
     likeToggle: false,
     price: "25,000 UZS",
     discount: "",
