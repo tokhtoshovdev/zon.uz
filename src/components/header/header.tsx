@@ -10,8 +10,10 @@ import {
 } from "@/icons";
 import { Phone } from "@/icons/phone";
 import { Button, Input } from "../ui";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  const navigate = useNavigate();
   return (
     <section>
       <header className="flex flex-col gap-y-3 py-3">
@@ -63,7 +65,10 @@ export const Header = () => {
               <Search />
             </Button>
           </form>
-          <button>
+          <button
+            className="flex gap-x-2 items-center"
+            onClick={() => navigate("/shop")}
+          >
             <Card />
           </button>
           <button>
