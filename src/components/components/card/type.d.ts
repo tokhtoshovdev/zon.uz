@@ -4,5 +4,5 @@ export interface Props {
   image: string;
   likeToggle: boolean;
   price: string;
-  discount: string;
+  discount: strin;
 }
