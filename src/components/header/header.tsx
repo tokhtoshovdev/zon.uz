@@ -3,7 +3,6 @@ import {
   Card,
   Catalog,
   Interrogation,
-  Item,
   Location,
   Search,
   Sold,
@@ -11,6 +10,7 @@ import {
 import { Phone } from "@/icons/phone";
 import { Button, Input } from "../ui";
 import { useNavigate } from "react-router-dom";
+import { FaHeart } from "react-icons/fa";
 
 export const Header = () => {
   const navigate = useNavigate();
@@ -52,7 +52,7 @@ export const Header = () => {
           <a href="">
             <img src="./logo.svg" alt="" />
           </a>
-          <Button className="bg-transparent border border-[#011C47] hover:border-[#011C47] hover:bg-transparent">
+          <Button className="bg-transparent text-black  border border-[#011C47] hover:border-[#011C47] hover:bg-transparent">
             <Catalog />
             Каталог
           </Button>
@@ -71,8 +71,11 @@ export const Header = () => {
           >
             <Card />
           </button>
-          <button>
-            <Item />
+          <button
+            onClick={() => navigate("/like")}
+            className="flex gap-x-2 items-center"
+          >
+            <FaHeart className="text-[#5D78FF] text-2xl" />
           </button>
           <button>
             <Interrogation />
