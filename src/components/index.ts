@@ -4,3 +4,5 @@ export * from "./footer";
 export * from "./articles";
 export * from "./image-slider";
 export * from "./card";
+export * from "./product";
+export * from "./components";

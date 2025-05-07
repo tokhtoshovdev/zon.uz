@@ -1,4 +1,11 @@
-import { Articles, Card, Footer, Header, ImageSlider } from "@/components";
+import {
+  Articles,
+  Card,
+  Footer,
+  Header,
+  ImageSlider,
+  Product,
+} from "@/components";
 
 export const Home = () => {
   return (
@@ -6,6 +13,7 @@ export const Home = () => {
       <Header />
       <ImageSlider />
       <Card />
+      <Product />
       <Articles />
       <Footer />
     </div>
