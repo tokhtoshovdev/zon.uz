@@ -53,7 +53,7 @@ export const CardCommon = ({
           >
             <MdAddShoppingCart className="text-2xl text-[#1BC5BD]" />
           </button>
-          {shopping > 0 && (
+          {shopping && (
             <span className="text-xs bg-[#1BC5BD] text-white px-2 py-1 rounded-full ml-2">
               {shopping} ta
             </span>
